@@ -1,0 +1,10 @@
+name: test workflow
+on: [push]
+jobs:
+  job1:
+   runs_on: ubuntu-latest
+   steps:
+     - name: sample run
+       run: echo "Hello world" 
+    
+  
