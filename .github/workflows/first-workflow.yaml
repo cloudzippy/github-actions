@@ -6,4 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greetings-1
-        run: echo "hello world"
+        run: |
+          echo "hello world-1"
+          echo "hello world-2"
+          echo "hello world-3"
