@@ -10,3 +10,8 @@ jobs:
           echo "hello world-1"
           echo "hello world-2"
           echo "hello world-3"
+  secondjob:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: greetings-2
+        run: echo " Second Job"
