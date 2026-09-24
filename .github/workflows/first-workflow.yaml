@@ -11,6 +11,7 @@ jobs:
           echo "hello world-2"
           echo "hello world-3"
   secondjob:
+    needs: firstjob
     runs-on: ubuntu-24.04
     steps:
       - name: greetings-2
